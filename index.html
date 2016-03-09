@@ -7,8 +7,15 @@
     <link crossorigin="anonymous" href=
     "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
     "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,200,300,200italic,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+
+
+
     <div class="container">
         <section class="home-recipe-menu">
             <div class="container">
@@ -69,7 +76,7 @@
         </div>
 
 
-        <div class="col-xs-6 col-sm-6 col-md-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
             <h1>Classic Box Menu From 3/19 to 3/25</h1>
             
             <div class="row">
@@ -93,15 +100,102 @@
                         <div class="col-sm-6">
                             <h6>Ingredients</h6>
                             <ul style="margin-left: -3rem;">
-                            	<li><p>1 1/2 pounds green beans, trimmed and cut into 2 inch pieces.</p></li>
-                            	<li><p>1 1/2 pounds green beans, trimmed and cut into 2 inch pieces.</p></li>
-                            	<li><p>1 1/2 pounds green beans, trimmed and cut into 2 inch pieces.</p></li>
-                            	<p class="text-success">More Ingredients <span class="caret"></span></p>
+                            	<li>1 1/2 pounds green beans, trimmed and cut into 2 inch pieces.</p></li>
+                            	<li>1 1/2 cups water.</li>
+                            	<li>1/4 butter.</li>
+                            	<!--<a href="#" onclick="$('#moreIngredients').toggle();" class="text-success">
+								    Show/Hide<span class="caret"></span>
+								</a>-->
+								<div id="moreIngredients" style="display: none">
+								  <li>1 tablespoon sugar.</li>
+                            	  <li>1 teaspoon garlic salt.</li>
+                            	  <li>1/4 teaspoon pepper.</li>
+                            	  <li>1 1/2 teaspoons chopped fresh basil.</li>
+                            	  <li>2 cups cherry tomato halves.</li>
+								</div>
+
+								<a href="#" onclick="$('#moreIngredients').toggle();" class="text-success">
+                            		More Ingredients <span class="caret"></span>
+                            	</a>
                             </ul>
                             
-                            <p><span class="iconhf-duration text-success mrl" style=
+                            <!--<p><span class="iconhf-duration text-success mrl" style=
                             "font-size: 30px;"></span> <span><strong>Cooking time</strong></span>
-                            <span class="text-muted mll">35 min</span></p>
+                            <span class="text-muted mll">35 min</span></p>-->
+                            <p><span class="iconhf-difficult-1 text-success mrl" style=
+                            "font-size: 28px;"></span> <span><strong>Difficulty
+                            level</strong></span> <span class="text-muted mll">Level 1</span></p>
+                           
+                        </div>
+                    </div>
+                   
+                    <div id="cookingInstructions" class="row recipe-info-details"  style="display: none;">
+                        <div class="col-xs-12">
+                            <p class="text-gray-dark mvl">
+                            	Place beans and water in a large saucepan. Cover and bring to a boil. Set heat to low, and simmer until tender, about 10 minutes. Drain off water, and set aside.
+                            </p>
+                            <p class="text-gray-dark mvl">
+                            	Melt butter in a skillet over medium heat. Stir in sugar, garlic salt, pepper and basil. Add tomatoes and cook stirring gently until soft. Pour the tomato mixture over the green beans, and toss gently to blend
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mtm">
+                        <div class="col-md-12">
+                        	<a href="#" onclick="$('#cookingInstructions').toggle();" class="more-recipe-info text-center text-success pointer mbs">
+                            	Cooking Instructions <span class="caret"></span>
+                            </a>
+
+                            <!--<div onclick="$('#cookingInstructions').toggle();" class="more-recipe-info text-center text-success pointer mbs"
+                             style="display: none;">
+                            Cooking Instructions <span class="caret"></span>
+                            </div>
+                            <div class="less-recipe-info text-center text-success pointer mbs"
+                            onclick=
+                            "$('.recipe-56c23ead4dab7192428b4568 .more-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .less-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .recipe-info-details').toggle () ;"
+                            style="display:none;">
+                                Less recipe info <span class="dropup"><span class=
+                                "caret"></span></span>
+                            </div>>-->
+                            <div class="divider mtl"></div
+                        </div>
+                    </div>
+                </div>
+            
+            	<div class="col-md-6 recipe-56c23ead4dab7192428b4568 recipe-item">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="sans-serif">Broccoli</h3>
+                            <p class="mbl">And Cheese Casserole</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="relative"><img alt=
+                            "Pan-Roasted Chicken with Dijon Mushroom Sauce and Brown Rice" class=
+                            "img-responsive mbl" src=
+                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c23ead4dab7192428b4568.jpg?t=20160307122614"></div>
+                             <a class="btn btn-sm btn-default iconhf-download fwN" href=
+                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c23ead4dab7192428b4568.pdf?t=20160307122614">
+                            Download recipe</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>Ingredients</h6>
+                            <ul style="margin-left: -3rem;">
+                            	<li>3 cups water.</p></li>
+                            	<li>1 (10 ounce) package yellow rice.</li>
+                            	<li>1/4 butter.</li>
+                            	<div id="moreIngredients1" style="display: none">
+	                            	<li>1 (16 ounce) broccoli.</li>
+	                            	<li>1 (16 ounce) jar process cheese sauce.</li>
+	                            </div>
+                            	<a href="#" onclick="$('#moreIngredients1').toggle();" class="text-success">
+                            		More Ingredients <span class="caret"></span>
+                            	</a>
+                            </ul>
+                            
+                            <!--<p><span class="iconhf-duration text-success mrl" style=
+                            "font-size: 30px;"></span> <span><strong>Cooking time</strong></span>
+                            <span class="text-muted mll">35 min</span></p>-->
                             <p><span class="iconhf-difficult-1 text-success mrl" style=
                             "font-size: 28px;"></span> <span><strong>Difficulty
                             level</strong></span> <span class="text-muted mll">Level 1</span></p>
@@ -110,72 +204,16 @@
                     </div>
                    
                     <div class="row recipe-info-details" style="display:none;">
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Nutritional Facts Per Meal</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan">Calories</td>
-                                            <td class="pan">589 cal</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Carbohydrate</td>
-                                            <td class="pan">63 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Dietary Fiber</td>
-                                            <td class="pan">4 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Fat</td>
-                                            <td class="pan">15 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Protein</td>
-                                            <td class="pan">49 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Saturated Fat</td>
-                                            <td class="pan">4 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sodium</td>
-                                            <td class="pan">410 mg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sugars</td>
-                                            <td class="pan">2 g</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Good to Have at Home</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-0"></span> Salt*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-1"></span> Pepper*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-2"></span> Olive Oil*</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                         <div class="col-xs-12">
-                            <p class="text-gray-dark mvl">Due to the different suppliers we
-                            purchase our products from, nutritional facts per meal can vary
-                            depending on your region.</p>
+                            <p class="text-gray-dark mvl">
+                            	In a saucepan bring water to a boil. Add rice, reduce heat cover and simmer for 20 minutes. 
+                            </p>
+                            <p class="text-gray-dark mvl">
+                            	While the rice is cooking, place the broccoli in a large skillet. Heat stove to low-medium . Add processed cheese sauce to the broccoli and let melt. When the rice has completed cooking add broccoli-cheese mixture and rice to 9x13 baking dish and mix well.
+                            </p>
+                            <p class="text-gray-dark mvl">
+                            	Place casserole in the preheated 400 degress F(200 degrees C) oven for 10 minutes; or until heated through.
+                            </p>
                         </div>
                     </div>
                     <div class="row mtm">
@@ -196,238 +234,78 @@
                         </div>
                     </div>
                 </div>
-            <!--</div>
-
-            <div class="row">-->
-                <div class="col-md-6 recipe-56c23f57fd2cb91a068b4567 recipe-item">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="sans-serif">Seared Steak</h3>
-                            <p class="mbl">with Spring Veggie Succotash and Mint-Chive Pesto</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="relative"><img alt=
-                            "Seared Steak with Spring Veggie Succotash and Mint-Chive Pesto" class=
-                            "img-responsive mbl" src=
-                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c23f57fd2cb91a068b4567.jpg?t=20160307122618"></div>
-                        </div>
-                        <div class="col-sm-6">
-                            <h6>Ingredients</h6>
-                            <p>Sirloin Steak, Zucchini, Red Onion, Asparagus, Mint, Chives, Lemon,
-                            Peas</p>
-                            <p><span class="iconhf-duration text-success mrl" style=
-                            "font-size: 30px;"></span> <span><strong>Cooking time</strong></span>
-                            <span class="text-muted mll">30 min</span></p>
-                            <p><span class="iconhf-difficult-1 text-success mrl" style=
-                            "font-size: 28px;"></span> <span><strong>Difficulty
-                            level</strong></span> <span class="text-muted mll">Level 1</span></p>
-                            <a class="btn btn-sm btn-default iconhf-download fwN" href=
-                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c23f57fd2cb91a068b4567.pdf?t=20160307122618">
-                            Download recipe</a>
-                        </div>
-                    </div>
-                    
-                    <div class="row recipe-info-details" style="display:none;">
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Nutritional Facts Per Meal</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan">Calories</td>
-                                            <td class="pan">489 cal</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Carbohydrate</td>
-                                            <td class="pan">26 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Dietary Fiber</td>
-                                            <td class="pan">10 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Fat</td>
-                                            <td class="pan">26 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Protein</td>
-                                            <td class="pan">45 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Saturated Fat</td>
-                                            <td class="pan">8 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sodium</td>
-                                            <td class="pan">95 mg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sugars</td>
-                                            <td class="pan">11 g</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Good to Have at Home</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-0"></span> Salt*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-1"></span> Pepper*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-2"></span> Olive Oil*</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <p class="text-gray-dark mvl">Due to the different suppliers we
-                            purchase our products from, nutritional facts per meal can vary
-                            depending on your region.</p>
-                        </div>
-                    </div>
-                    <div class="row mtm">
-                        <div class="col-md-12">
-                            <div class="more-recipe-info text-center text-success pointer mbs"
-                            onclick=
-                            "$('.recipe-56c23f57fd2cb91a068b4567 .more-recipe-info').toggle (); $('.recipe-56c23f57fd2cb91a068b4567 .less-recipe-info').toggle (); $('.recipe-56c23f57fd2cb91a068b4567 .recipe-info-details').toggle () ;">
-                            Cooking Instructions <span class="caret"></span>
-                            </div>
-                            <div class="less-recipe-info text-center text-success pointer mbs"
-                            onclick=
-                            "$('.recipe-56c23f57fd2cb91a068b4567 .more-recipe-info').toggle (); $('.recipe-56c23f57fd2cb91a068b4567 .less-recipe-info').toggle (); $('.recipe-56c23f57fd2cb91a068b4567 .recipe-info-details').toggle () ;"
-                            style="display:none;">
-                                Less recipe info <span class="dropup"><span class=
-                                "caret"></span></span>
-                            </div>
-                            <div class="divider mtl"></div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 recipe-56c23fcafd2cb947068b4567 recipe-item">
+               <div class="col-md-6 recipe-56c23ead4dab7192428b4568 recipe-item">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="sans-serif">Citrus Skillet Shrimp</h3>
-                            <p class="mbl">with Poblano, Olives, and Crispy Potatoes</p>
+                            <h3 class="sans-serif">Loaded Cauliflower.</h3>
+                            <!--<p class="mbl">with Cherry Tomatoes</p>-->
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="relative"><img alt=
-                            "Citrus Skillet Shrimp with Poblano, Olives, and Crispy Potatoes"
-                            class="img-responsive mbl" src=
-                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c23fcafd2cb947068b4567.jpg?t=20160307122621"></div>
+                            "Pan-Roasted Chicken with Dijon Mushroom Sauce and Brown Rice" class=
+                            "img-responsive mbl" src=
+                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c23ead4dab7192428b4568.jpg?t=20160307122614"></div>
+                             <a class="btn btn-sm btn-default iconhf-download fwN" href=
+                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c23ead4dab7192428b4568.pdf?t=20160307122614">
+                            Download recipe</a>
                         </div>
                         <div class="col-sm-6">
                             <h6>Ingredients</h6>
-                            <p>Yukon Potatoes, Poblano Pepper, Green Olives, Orange, Red Onion,
-                            Oregano, Lemon, Garlic, Shrimp (Shellfish)</p>
-                            <p><span class="iconhf-duration text-success mrl" style=
+                            <ul style="margin-left: -3rem;">
+                            	<li>1 head cauliflower..</p></li>
+                            	<li>1/2 cup sour cream.</li>
+                            	<li>1/2 cup shredded Cheddar cheese.</li>
+                            	<div id="moreIngredients2" style="display: none">
+	                            	<li>1 teaspoon dry salad dressing mix.</li>
+	                            	<li>1 teaspoon onion power.</li>
+	                            	<li>1/2 teaspoon garlic powder.</li>
+	                            </div>
+                            	<a href="#" onclick="$('#moreIngredients2').toggle();" class="text-success">
+                            		More Ingredients <span class="caret"></span>
+                            	</a>
+                            </ul>
+                            
+                            <!--<p><span class="iconhf-duration text-success mrl" style=
                             "font-size: 30px;"></span> <span><strong>Cooking time</strong></span>
-                            <span class="text-muted mll">30 min</span></p>
+                            <span class="text-muted mll">35 min</span></p>-->
                             <p><span class="iconhf-difficult-1 text-success mrl" style=
                             "font-size: 28px;"></span> <span><strong>Difficulty
                             level</strong></span> <span class="text-muted mll">Level 1</span></p>
-                            <a class="btn btn-sm btn-default iconhf-download fwN" href=
-                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c23fcafd2cb947068b4567.pdf?t=20160307122621">
-                            Download recipe</a>
+                           
                         </div>
                     </div>
-                    
+                   
                     <div class="row recipe-info-details" style="display:none;">
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Nutritional Facts Per Meal</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan">Calories</td>
-                                            <td class="pan">456 cal</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Carbohydrate</td>
-                                            <td class="pan">56 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Dietary Fiber</td>
-                                            <td class="pan">12 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Fat</td>
-                                            <td class="pan">12 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Protein</td>
-                                            <td class="pan">37 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Saturated Fat</td>
-                                            <td class="pan">1 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sodium</td>
-                                            <td class="pan">521 mg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sugars</td>
-                                            <td class="pan">11 g</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Good to Have at Home</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-0"></span> Salt*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-1"></span> Pepper*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-2"></span> Olive Oil*</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                         <div class="col-xs-12">
-                            <p class="text-gray-dark mvl">Due to the different suppliers we
-                            purchase our products from, nutritional facts per meal can vary
-                            depending on your region.</p>
+                            <p class="text-gray-dark mvl">
+                            	Preheat oven to 350 degrees F(175 degrees C).
+                            </p>
+                            <p class="text-gray-dark mvl">
+                            	Place a steamer insert into a saucepan and fill with water just below the bottom of the steamer. Bring water to a boil. Add cauliflower, cover and steam untill very tender, 15 to 20 minutes. Transfer cauliflower to a bowl, mash and strain excess water. 
+                            </p>
+                            <p>
+                            	Mix cauliflower, sour cream, Cheddar cheese, ranch dressing mix, onion powder, and garlic powder together in a 9-inch bakig dish; top with butter. 
+                            </p>
+                            <p>
+                            	bake in the pre-heated oven until bubbling, 30 45 minute.
+                            </p>
                         </div>
                     </div>
                     <div class="row mtm">
                         <div class="col-md-12">
                             <div class="more-recipe-info text-center text-success pointer mbs"
                             onclick=
-                            "$('.recipe-56c23fcafd2cb947068b4567 .more-recipe-info').toggle (); $('.recipe-56c23fcafd2cb947068b4567 .less-recipe-info').toggle (); $('.recipe-56c23fcafd2cb947068b4567 .recipe-info-details').toggle () ;">
+                            "$('.recipe-56c23ead4dab7192428b4568 .more-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .less-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .recipe-info-details').toggle () ;">
                             Cooking Instructions <span class="caret"></span>
                             </div>
                             <div class="less-recipe-info text-center text-success pointer mbs"
                             onclick=
-                            "$('.recipe-56c23fcafd2cb947068b4567 .more-recipe-info').toggle (); $('.recipe-56c23fcafd2cb947068b4567 .less-recipe-info').toggle (); $('.recipe-56c23fcafd2cb947068b4567 .recipe-info-details').toggle () ;"
+                            "$('.recipe-56c23ead4dab7192428b4568 .more-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .less-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .recipe-info-details').toggle () ;"
                             style="display:none;">
                                 Less recipe info <span class="dropup"><span class=
                                 "caret"></span></span>
@@ -436,117 +314,73 @@
                         </div>
                     </div>
                 </div>
-            <!--</div>
-            <div class="row">-->
-                <div class="col-md-6 recipe-56c240b6fd2cb972068b4567 recipe-item">
+            
+            	<div class="col-md-6 recipe-56c23ead4dab7192428b4568 recipe-item">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="sans-serif">Nir&#39;s Lamb-Stuffed Zucchini</h3>
-                            <p class="mbl">with Spiced Lentil Stew</p>
+                            <h3 class="sans-serif">Red Cabbage Slaw</h3>
+                            <p class="mbl">With a Twist</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="relative"><img alt=
-                            "Nir’s Lamb-Stuffed Zucchini with Spiced Lentil Stew" class=
+                            "Pan-Roasted Chicken with Dijon Mushroom Sauce and Brown Rice" class=
                             "img-responsive mbl" src=
-                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c240b6fd2cb972068b4567.jpg?t=20160307122528"></div>
+                            "https://d3hvwccx09j84u.cloudfront.net/680,480/image/56c23ead4dab7192428b4568.jpg?t=20160307122614"></div>
+                             <a class="btn btn-sm btn-default iconhf-download fwN" href=
+                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c23ead4dab7192428b4568.pdf?t=20160307122614">
+                            Download recipe</a>
                         </div>
                         <div class="col-sm-6">
                             <h6>Ingredients</h6>
-                            <p>Zucchini, Carrot, Red Onion, Ginger, Garlic, Cilantro, Lemon, Ground
-                            Lamb, Cumin, Ras el Hanout, Tomato Paste, Turmeric, Lentils, Vegetable
-                            Stock Concentrate, Peas</p>
-                            <p><span class="iconhf-duration text-success mrl" style=
+                            <ul style="margin-left: -3rem;">
+                            	<li>3 cupsthinly sliced red cabbage.</p></li>
+                            	<li>3/4 cup diced red bell pepper.</li>
+                            	<li>2 shallots diced.</li>
+                            	<div id="moreIngredients3" style="display: none">
+	                            	<li>1 (1 inch) piece fresh ginger, peeled and minced. </li>
+	                            	<li>10 leaves fresh basil snipped.</li>
+	                            	<li>1/4 cup mayonnaise.</li>
+	                            	<li>1 lemon, juiced.</li>
+	                            	<li>2 tablespoons olive oil.</li>
+	                            	<li>1 1/2 teaspoons wasabi paste.</li>
+	                            	<li>freshly ground multi-colored peppercorns to taste.</li>
+	                            	<li>1/4 cup toasted pine nuts.</li>
+	                            	<li>2 tablespoons salted sunflower kernels.</li>
+	                            </div>
+                            	<a href="#" onclick="$('#moreIngredients3').toggle();" class="text-success">
+                            		More Ingredients <span class="caret"></span>
+                            	</a>
+                            </ul>
+                            
+                            <!--<p><span class="iconhf-duration text-success mrl" style=
                             "font-size: 30px;"></span> <span><strong>Cooking time</strong></span>
-                            <span class="text-muted mll">45 min</span></p>
-                            <p><span class="iconhf-difficult-2 text-success mrl" style=
+                            <span class="text-muted mll">35 min</span></p>-->
+                            <p><span class="iconhf-difficult-1 text-success mrl" style=
                             "font-size: 28px;"></span> <span><strong>Difficulty
-                            level</strong></span> <span class="text-muted mll">Level 2</span></p>
-                            <a class="btn btn-sm btn-default iconhf-download fwN" href=
-                            "https://ddw4dkk7s1lkt.cloudfront.net/card/56c240b6fd2cb972068b4567.pdf?t=20160307122528">
-                            Download recipe</a>
+                            level</strong></span> <span class="text-muted mll">Level 1</span></p>
+                           
                         </div>
                     </div>
-                    
+                   
                     <div class="row recipe-info-details" style="display:none;">
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Nutritional Facts Per Meal</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan">Calories</td>
-                                            <td class="pan">634 cal</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Carbohydrate</td>
-                                            <td class="pan">76 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Dietary Fiber</td>
-                                            <td class="pan">28 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Fat</td>
-                                            <td class="pan">23 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Protein</td>
-                                            <td class="pan">40 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Saturated Fat</td>
-                                            <td class="pan">10 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sodium</td>
-                                            <td class="pan">354 mg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan">Sugars</td>
-                                            <td class="pan">19 g</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="gray-lighter-bg pal">
-                                <h6 class="mtn">Good to Have at Home</h6>
-                                <table class="table table-condensed">
-                                    <tbody>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-0"></span> Salt*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-1"></span> Pepper*</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pan"><span class=
-                                            "iconhf-goodtohave-2"></span> Olive Oil*</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                         <div class="col-xs-12">
-                            <p class="text-gray-dark mvl">Due to the different suppliers we
-                            purchase our products from, nutritional facts per meal can vary
-                            depending on your region.</p>
+                            <p class="text-gray-dark mvl">
+                            	Combine cabbage, red bell pepper, shallots, ginger and basil in a large bowl. Whisk mayonnaise, lemon juice olive oil, wasabi paste and ground pepper in another bowl; stir into cabbage mixture. Top with pine nuts and sunflower kernels. 
+                            </p>
                         </div>
                     </div>
                     <div class="row mtm">
                         <div class="col-md-12">
                             <div class="more-recipe-info text-center text-success pointer mbs"
-                            onclick="$'.toggle()'">
+                            onclick=
+                            "$('.recipe-56c23ead4dab7192428b4568 .more-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .less-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .recipe-info-details').toggle () ;">
                             Cooking Instructions <span class="caret"></span>
                             </div>
                             <div class="less-recipe-info text-center text-success pointer mbs"
                             onclick=
-                            "$('.recipe-56c240b6fd2cb972068b4567 .more-recipe-info').toggle (); $('.recipe-56c240b6fd2cb972068b4567 .less-recipe-info').toggle (); $('.recipe-56c240b6fd2cb972068b4567 .recipe-info-details').toggle () ;"
+                            "$('.recipe-56c23ead4dab7192428b4568 .more-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .less-recipe-info').toggle (); $('.recipe-56c23ead4dab7192428b4568 .recipe-info-details').toggle () ;"
                             style="display:none;">
                                 Less recipe info <span class="dropup"><span class=
                                 "caret"></span></span>
@@ -559,7 +393,8 @@
             
         </div>
     </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
-    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </body>
 </html>
