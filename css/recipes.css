@@ -8,6 +8,9 @@ body{
 ul li{
 	list-style-type: none;
 }
+.recipe-header{
+	font-size: 30px;
+}
 .week-list h1 {
     font-size: 42px;
 }
@@ -32,9 +35,7 @@ ul li{
 	font-family: 'Chela One', "Source Sans Pro", cursive;
 	/*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
-/*.recipe-item{
-	box-shadow: 0 1px px rgba(0,0,0,.5);
-}*/
+
 .ing-with{
 	font-family: sans-serif;
 	font-size: 16px;
@@ -88,4 +89,5 @@ ul li{
 }
 .relative a{
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
