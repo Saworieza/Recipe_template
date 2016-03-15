@@ -1,27 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Junge);
+@import url(https://fonts.googleapis.com/css?family=Chela+One&subset=latin,latin-ext);
+
 body{
 		font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 		background-color: red;
 }
-/*h6 {
-    font-family:'Junge', serif;,Helvetica,"Helvetica Neue",Arial,sans-serif;
-    font-weight: 700;
-    line-height: 1.25;
-    color: #3a3a3a;
-}*/
+ul li{
+	list-style-type: none;
+}
 .week-list h1 {
     font-size: 42px;
 }
+.recipe-item{
+	border-bottom: thin dotted #dfdfdf;
+	padding-bottom: 1rem;
+}
+.recipe-center{
+	border-right: thin dotted #dfdfdf;
+}
 .recipe-item h3 {
-    font-size: 24px;
-    font-weight: 700;
-	line-height: 1.25;
+    font-size: 26px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.recipe-item h6{
+	font-family: 'Chela One', "Source Sans Pro", cursive;
+	font-size: 17px;
+	margin-top: -2px;
 }
 .sans-serif{
-	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Chela One', "Source Sans Pro", cursive;
+	/*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
-.recipe-item{
-	box-shadow: 0 1px 4px rgba(0,0,0,.5);
+/*.recipe-item{
+	box-shadow: 0 1px px rgba(0,0,0,.5);
+}*/
+.ing-with{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
 }
 
 /* recipe tabs*/
@@ -65,3 +83,9 @@ body{
 	background-color: transparent !important;
 }
 /* //recipe tabs*/
+.relative img{
+	border: thin solid #c1c1c1;
+}
+.relative a{
+	margin-top: 1rem;
+}
