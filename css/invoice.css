@@ -62,6 +62,7 @@ input[type="radio"]{
 }
 .table1 > tbody > tr > td{
 	width: 160px;
+	height: 3.5rem;
 }
 .tab-content input{
 	width: 60%;
@@ -121,4 +122,7 @@ input:checked + label {
   label {
     padding: 15px;
   }
+}
+@media print {
+
 }
