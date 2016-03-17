@@ -1,9 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Invoices</title>
+	 <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/invoice.css">
 </head>
 <body>
+<div class="container">
+	<div class="row">
+		<form>
+			<div class="col-lg-7">
+				<h2 class="pull-left owner-title">Customer</h2>
+				<div class="clearfix"></div>
+				<ul>
+					<li><input type="text" placeholder="Contact" class="text-left"></input></li>
+					<li><input type="text" placeholder="Address: Delivery Street Name" class="text-left"></input></li>
+					<li><input type="text" placeholder="Struction delivery" class="text-left"></input></li>
+					<li><input type="text" placeholder="Tel :" class="text-left"></input></li>
+				</ul>
+			</div>
+			<div class="col-lg-5">
+				<h2 class="pull-left owner-title">Invoice</h2>
+				<div class="clearfix"></div>
+				<ul>
+					<li><input type="date" placeholder="Date :" class="text-left"></input></li>
+					<li><input type="text" placeholder="" class="text-left"></input></li>
+					<li><input type="text" placeholder="Membership Member" class="text-left"></input></li>
+					<li><input type="text" placeholder="Reference Number" class="text-left"></input></li>
+				</ul>
+			</div>
+			<div class="col-lg-12 type-pack">
+					<span class="ty-pa">TYPE </span><input type="text" name="Type" value="Home Delivery"></input>
+					<span class="ty-pa">PACKAGE </span><input type="text" name="Package" value="Fruits &amp; Vegetables"></input>
+			</div>
+         	
+         	<div class="clearfix"></div>
+			<table class="table table-bordered">
+			    <thead>
+			        <tr>
+			        	<th></th>
+				        <th>YOUR FRESH 'n EASY BOX</th>
+				        <th>QTY</th>
+				        <th>UNIT</th>
+				        <th>PRICE</th>
+				        <th>TOTAL</th>
+			       </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			        	<td></td>
+				        <td>Sweet Potatoes White</td>
+				        <td>2</td>
+				        <td>1 KG</td>
+				        <td>#VALUE</td>
+				        <td>#VALUE</td>
+			        </tr>
+			        <tr>
+			        	<td></td>
+				        <td>Sweet Bananas</td>
+				        <td>1</td>
+				        <td>Bunch</td>
+				        <td>#VALUE</td>
+				        <td>#VALUE</td>
+			        </tr>
+			        <tr>
+			        	<td></td>
+				        <td></td>
+				        <td></td>
+				        <td></td>
+				        <td>0.00</td>
+				        <td>0.00</td>
+			        </tr>
+			         <tr>
+			        	<td></td>
+				        <td></td>
+				        <td></td>
+				        <td></td>
+				        <td>0.00</td>
+				        <td>0.00</td>
+			        </tr>
+			        
+			    </tbody>
+			</table>
 
+			<div class="col-lg-6">
+				<div style="border:thin solid;">
+					<main>
+					  <input id="tab1" type="radio" name="tabs" checked>
+					  <label for="tab1">Terms</label>
+					  <section id="content1">
+					    <ul>
+							<li><span >Comments: </span><input type="text" placeholder="You're able to pay in advance or at delivery. On Mobile Banking Accepted "></input></li>
+							<li><input class="omega" type="text" placeholder=""></input></li>
+							
+							<li><span > M-Pesa Paybill: </span><input type="text" placeholder=" "></input></li>
+							<li><span >Airtel Money: </span><input type="text" placeholder=" "></input></li>
+						</ul>
+					  </section>
+					</main>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<table class="table table-bordered table1">
+				    <tbody>
+				        <tr>
+				        	<td></td>
+					        <td></td>
+				        </tr>
+				        <tr>
+				        	<td> All Prices Incl.16%</td>
+					        <td>0.00</td>
+				        </tr>
+				        <tr>
+				        	<td>TOTAL</td>
+				        	<td>0</td>
+				        </tr>
+				    </tbody>
+			    </table>
+			    <div class="pay-methods">
+				    <img src="images/mpesa.png" >
+				    <img src="images/airtel.png">
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="big-orange"></div>
+
+	 <!-- scripts -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+    	jQuery(function () {
+		    jQuery('#myTab a:last').tab('show')
+		})
+    </script>
 </body>
 </html>
